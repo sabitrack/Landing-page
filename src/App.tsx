@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { 
   Smartphone, 
   Users, 
@@ -388,9 +388,14 @@ function App() {
               </div>
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Call Us</h3>
               <p className="text-gray-600 mb-4">Speak with our team</p>
-              <a href="tel:+16786502960" className="text-purple-600 hover:text-purple-700 font-medium">
-                +1 (678) 650-2960
-              </a>
+              <div className="flex flex-col space-y-2">
+                <a href="tel:+16786502960" className="text-purple-600 hover:text-purple-700 font-medium">
+                  +1 (678) 650-2960
+                </a>
+                <a href="tel:+2348122905840" className="text-purple-600 hover:text-purple-700 font-medium">
+                  +234 812 290 5840
+                </a>
+              </div>
             </div>
           </div>
         </div>
